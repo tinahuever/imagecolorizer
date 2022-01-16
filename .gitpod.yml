@@ -1,0 +1,9 @@
+tasks:
+  - init: |
+      python -m pip install --upgrade poetry
+    command: |
+      echo "Hello world"
+
+vscode:
+  extensions:
+    - ms-python.python
