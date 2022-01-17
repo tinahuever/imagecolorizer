@@ -1,6 +1,8 @@
 tasks:
   - init: |
-      python -m pip install --upgrade poetry
+      sudo apt-get install -y python3-opencv
+      pip install --upgrade poetry
+      poetry install
     command: |
       echo "Hello world"
 
